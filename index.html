@@ -8,20 +8,26 @@
     <title>ACES CUSAT</title>
 </head>    
 
-<body class="bg-darkBlue">
+<body class="bg-[url('/images/background.png')] bg-black bg-cover bg-repeat-y">
     <!-- navbar -->
-    <nav class="flex-row items-center bg-gray-800 max-w-10xl p-4 sm:px-6 lg:px-8">
-       <!--insert logo-->  
-       <div class="hidden md:block">      
-            <ul class="flex space-x-4 justify-end">
-                <li><a href="#" class="text-white hover:text-gray-300">Home</a></li>
-                <li><a href="#" class="text-white hover:text-gray-300">About</a></li>
-                <li><a href="#" class="text-white hover:text-gray-300">Services</a></li>
-                <li><a href="#" class="text-white hover:text-gray-300">Contact</a></li>
+    <nav class="flex-row items-center bg-transparent max-w-10xl p-4 sm:px-6 lg:px-8">
+       <div class="flex justify-between font-semibold "> 
+        <img src="images/hamburger.png" class="block lg:hidden">
+        <img src="images/logo.png" class="hidden lg:block h-20 w-64 mt-0"> 
+            <ul class="hidden lg:flex space-x-6 lg:space-x-12 justify-end p-4 w-1/2">
+                <li><a href="#" class="text-white text-lg hover:text-gray-300 ">Home</a></li>
+                <li><a href="#" class="text-white text-lg hover:text-gray-300 ">Events</a></li>
+                <li><a href="#" class="text-white text-lg hover:text-gray-300 ">Resources</a></li>
+                <li><a href="#" class="text-white text-lg hover:text-gray-300">Core Team</a></li>
+                <li><a href="#" class="text-white text-lg hover:text-gray-300">Contact</a></li>
+                <li><input class="border-solid p-2 border-2 mb-2 border-white rounded-full text-md w-18" placeholder="🔍 Search" style="background-color: #0a0e21" /></li>
             </ul>
         </div>
         </nav>
-    <!-- navbar ends -->
+        <!-- navbar ends -->
+    <div class="flex flex-1 flex-row text-white justify-end p-24">
+        <h1 class="text-4lg">WELCOME TO OFFICIAL WEBSITE OF</h1>
+    </div>    
 
   
 </body>
