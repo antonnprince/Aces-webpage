@@ -9,12 +9,14 @@ module.exports = {
       xl:'1440px'
     },
 
+
     extend: {
       colors:{
         text:'#67C8FF',
         buttonCol:'#0085FF',
-      },
-    },
+        
+      }
+    }
   },
   plugins: [],
 }
