@@ -38,7 +38,7 @@
             <div class="container mx-auto">
                 <div class="flex flex-col md:flex-row justify-between">
                     <div class="mb-4 md:mb-0">
-                        <p class="text-md font-semibold text-6xl" style="text-align: center;">EVENTS</p>
+                        <p class="text-md font-semibold text-6xl" style="text-align: center;font-size: 3rem !important;justify-content: center;">EVENTS</p>
                     </div>
                     <div class="flex" style="justify-content: center;display: none;">
                     <div class="dropdown-container relative">
@@ -163,13 +163,32 @@
 
 <style>
     @media screen and (max-width:500px) {
+        
+        .downbar {
+        width: 80% !important;
+    }
+    .txtt{
+        font-size: 0.9rem !important;
+    }
+
+    .reg {
+        scale: 0.6;
+        margin-right: -40px;
+    }
+    }
+    * {
+        font-size: x-large !important;
+    }
+
+    @media screen and (max-width:800px) {
         .name {
             display: none;
         }
     }
-    *{
-        font-size: 1.2rem !important;
-    }
+
+
+
+
 </style>
 <script src="js/events.js"></script>
 </html>
