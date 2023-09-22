@@ -37,9 +37,9 @@ var latest = document.getElementById("latest")
 
 var latesthtml = `
     <img class="rounded-t-lg" src="../images/image13.png" alt="" />
-    <div class="p-5" style="display: flex;background:white;border-radius:10px;width: 50%;justify-content: space-around;align-items: center;height: 8vh;margin-top:-3vh">
+    <div class="p-5 downbar mb-2 mt-2" style="display: flex;background:white;border-radius:10px;width: 80%;justify-content: space-around;align-items: center;height: 8vh;margin-top:-3vh">
     <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black"><div>Jun</div><div style="text-align: center;"> 17</div></h5>
+        <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-black">Jun 17</h5>
     </a>
     <div class="name">
     <div class="font-normal text-xl text-gray-700 dark:text-gray-400">Name</div>
@@ -64,9 +64,9 @@ for (var prop in Details) {
 <a href="#">
     <img class="rounded-t-lg" src="../images/image13.png" alt="" />
 </a>
-<div class="p-5" style="display: flex;width: -webkit-fill-available;justify-content: space-around;align-items: center;height: 6vh;">
+<div class="p-5 downbar mb-2 mt-2" style="display: flex;width: -webkit-fill-available;justify-content: space-around;align-items: center;height: 6vh;">
     <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black"><div>Jun</div><div style="text-align: center;"> 17</div></h5>
+        <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-black">Jun 17</h5>
     </a>
     <div class="name">
     <div class="font-normal text-xl text-gray-700 dark:text-gray-400">Name</div>
