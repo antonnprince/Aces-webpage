@@ -27,18 +27,20 @@
         </nav>
         <!-- navbar ends -->
         
+        <div class="container mx-auto my-20" style="height: 30vw;color: aliceblue;background-color: white;border: white;border-radius: 20px;width: 80%;margin-bottom: 2vw;">box</div>
         <!-- events1 begins here -->
-        <div class="bg-opacity-100 text-white py-6 border-t border-gray-300">
+        
+        <div class="bg-opacity-100 text-white py-6">
             <div class="container mx-auto">
                 <div class="flex flex-col md:flex-row justify-between">
                     <div class="mb-4 md:mb-0">
-                        <p class="text-md font-semibold text-4xl border-b border-gray-300">EVENTS</p>
+                        <p class="text-md font-semibold text-6xl" style="text-align: center;">EVENTS</p>
                     </div>
-                    <div class="flex">
+                    <div class="flex" style="justify-content: center;">
                     <div class="dropdown-container relative">
-                        <button
+                        <button 
                             type="button"
-                            class="bg-white text-black rounded-3xl px-4 mx-5 py-2 font-semibold flex "
+                            class="bg-white text-black  rounded-3xl px-4 mx-5 py-2 font-semibold flex "
                         >
                             <img src="./images/Vector.png" class="mr-2 h-6 w-6">2023<img src="./images/Vector (1).png" class=" ml-2 mt-2 h-3 w-4">
                         </button>
@@ -59,7 +61,11 @@
                     </div>
                     </div>
                 </div>
+                
+                </div>
+                <div  id="eventcards" class="w-full h-full flex flex-wrap my-10 px-16 "></div>
             </div>
+            
         </div>
 
 
@@ -150,5 +156,13 @@
 
   
 </body>
-<script src="js/index.js"></script>
+
+<style>
+    @media screen and (max-width:500px) {
+        .name {
+            display: none;
+        }
+    }
+</style>
+<script src="js/events.js"></script>
 </html>
