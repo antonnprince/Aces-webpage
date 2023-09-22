@@ -15,6 +15,10 @@ const Details=[
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
         "Title": "LOREM IPSUM",
     },
+    {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "Title": "LOREM IPSUM",
+    },
   
 
   ]
@@ -35,7 +39,7 @@ var latesthtml = `
     <img class="rounded-t-lg" src="../images/image13.png" alt="" />
     <div class="p-5" style="display: flex;background:white;border-radius:10px;width: 50%;justify-content: space-around;align-items: center;height: 8vh;margin-top:-3vh">
     <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black"><div>Jun</div><div> 17</div></h5>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black"><div>Jun</div><div style="text-align: center;"> 17</div></h5>
     </a>
     <div class="name">
     <div class="font-normal text-xl text-gray-700 dark:text-gray-400">Name</div>
@@ -62,7 +66,7 @@ for (var prop in Details) {
 </a>
 <div class="p-5" style="display: flex;width: -webkit-fill-available;justify-content: space-around;align-items: center;height: 6vh;">
     <a href="#">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black"><div>Jun</div><div> 17</div></h5>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black"><div>Jun</div><div style="text-align: center;"> 17</div></h5>
     </a>
     <div class="name">
     <div class="font-normal text-xl text-gray-700 dark:text-gray-400">Name</div>
