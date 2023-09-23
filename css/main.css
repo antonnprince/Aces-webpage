@@ -534,6 +534,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+<<<<<<< HEAD
 .container {
   width: 100%;
 }
@@ -562,6 +563,8 @@ video {
   }
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .absolute {
   position: absolute;
 }
@@ -578,6 +581,7 @@ video {
   left: 0px;
 }
 
+<<<<<<< HEAD
 .right-0 {
   right: 0px;
 }
@@ -637,11 +641,14 @@ video {
   margin-right: 1rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
+<<<<<<< HEAD
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -650,6 +657,21 @@ video {
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
+=======
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mx-24 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.mx-48 {
+  margin-left: 12rem;
+  margin-right: 12rem;
+>>>>>>> Aces-webpage/temp1
 }
 
 .my-4 {
@@ -662,9 +684,15 @@ video {
   margin-bottom: 2rem;
 }
 
+<<<<<<< HEAD
 .mx-5 {
   margin-left: 1.25rem;
   margin-right: 1.25rem;
+=======
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+>>>>>>> Aces-webpage/temp1
 }
 
 .mb-12 {
@@ -675,6 +703,7 @@ video {
   margin-bottom: 0.5rem;
 }
 
+<<<<<<< HEAD
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -683,6 +712,8 @@ video {
   margin-bottom: 12rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .mr-12 {
   margin-right: 3rem;
 }
@@ -695,6 +726,7 @@ video {
   margin-top: 2.5rem;
 }
 
+<<<<<<< HEAD
 .mt-\[-20px\] {
   margin-top: -20px;
 }
@@ -709,6 +741,22 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+=======
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-48 {
+  margin-bottom: 12rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+>>>>>>> Aces-webpage/temp1
 }
 
 .block {
@@ -723,14 +771,18 @@ video {
   display: none;
 }
 
+<<<<<<< HEAD
 .h-10 {
   height: 2.5rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .h-20 {
   height: 5rem;
 }
 
+<<<<<<< HEAD
 .h-24 {
   height: 6rem;
 }
@@ -761,28 +813,39 @@ video {
 
 .h-3 {
   height: 0.75rem;
+=======
+.h-1\/4 {
+  height: 25%;
+>>>>>>> Aces-webpage/temp1
 }
 
 .w-1\/2 {
   width: 50%;
 }
 
+<<<<<<< HEAD
 .w-40 {
   width: 10rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .w-64 {
   width: 16rem;
 }
 
+<<<<<<< HEAD
 .w-80 {
   width: 20rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .w-full {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-52 {
   width: 13rem;
 }
@@ -825,12 +888,17 @@ video {
 
 .w-6 {
   width: 1.5rem;
+=======
+.w-1\/4 {
+  width: 25%;
+>>>>>>> Aces-webpage/temp1
 }
 
 .max-w-full {
   max-width: 100%;
 }
 
+<<<<<<< HEAD
 .max-w-screen-sm {
   max-width: 480px;
 }
@@ -841,6 +909,10 @@ video {
 
 .flex-shrink-0 {
   flex-shrink: 0;
+=======
+.flex-shrink {
+  flex-shrink: 1;
+>>>>>>> Aces-webpage/temp1
 }
 
 .transform {
@@ -855,10 +927,13 @@ video {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 .flex-wrap {
   flex-wrap: wrap;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .items-center {
   align-items: center;
 }
@@ -875,6 +950,7 @@ video {
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 .gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
@@ -892,22 +968,54 @@ video {
   row-gap: 1rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+<<<<<<< HEAD
+=======
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(3rem * var(--tw-space-x-reverse));
+  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-16 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(4rem * var(--tw-space-x-reverse));
+  margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+>>>>>>> Aces-webpage/temp1
 .space-y-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
+<<<<<<< HEAD
 .rounded-2xl {
   border-radius: 1rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .rounded-full {
   border-radius: 9999px;
 }
@@ -916,6 +1024,7 @@ video {
   border-radius: 0.75rem;
 }
 
+<<<<<<< HEAD
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -928,6 +1037,8 @@ video {
   border-width: 1px;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .border-2 {
   border-width: 2px;
 }
@@ -936,6 +1047,7 @@ video {
   border-bottom-width: 2px;
 }
 
+<<<<<<< HEAD
 .border-l-2 {
   border-left-width: 2px;
 }
@@ -948,10 +1060,13 @@ video {
   border-bottom-width: 1px;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .border-solid {
   border-style: solid;
 }
 
+<<<<<<< HEAD
 .border-\[\#0085FF\] {
   --tw-border-opacity: 1;
   border-color: rgb(0 133 255 / var(--tw-border-opacity));
@@ -962,21 +1077,27 @@ video {
   border-color: rgb(67 142 255 / var(--tw-border-opacity));
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .border-buttonCol {
   --tw-border-opacity: 1;
   border-color: rgb(1 121 237 / var(--tw-border-opacity));
 }
 
+<<<<<<< HEAD
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+<<<<<<< HEAD
 .border-sky-500 {
   --tw-border-opacity: 1;
   border-color: rgb(14 165 233 / var(--tw-border-opacity));
@@ -1022,16 +1143,29 @@ video {
 }
 
 .bg-\[\#070912\] {
+=======
+.bg-btnText {
+>>>>>>> Aces-webpage/temp1
   --tw-bg-opacity: 1;
   background-color: rgb(7 9 18 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
 }
 
 .bg-opacity-100 {
   --tw-bg-opacity: 1;
+=======
+.bg-buttonCol {
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 121 237 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+>>>>>>> Aces-webpage/temp1
 }
 
 .bg-\[url\(\'\/images\/background\.png\'\)\] {
@@ -1042,6 +1176,7 @@ video {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
+<<<<<<< HEAD
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -1072,6 +1207,21 @@ video {
 
 .bg-contain {
   background-size: contain;
+=======
+.from-blue-500 {
+  --tw-gradient-from: #3b82f6 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(59 130 246 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.via-blue-600 {
+  --tw-gradient-to: rgb(37 99 235 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #2563eb var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.to-blue-700 {
+  --tw-gradient-to: #1d4ed8 var(--tw-gradient-to-position);
+>>>>>>> Aces-webpage/temp1
 }
 
 .bg-cover {
@@ -1087,10 +1237,13 @@ video {
   background-repeat: repeat-y;
 }
 
+<<<<<<< HEAD
 .p-10 {
   padding: 2.5rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .p-2 {
   padding: 0.5rem;
 }
@@ -1099,6 +1252,7 @@ video {
   padding: 1rem;
 }
 
+<<<<<<< HEAD
 .p-\[0\.2rem\] {
   padding: 0.2rem;
 }
@@ -1117,11 +1271,14 @@ video {
   padding-right: 4rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 
+<<<<<<< HEAD
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1152,14 +1309,19 @@ video {
   padding-bottom: 0.75rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .pb-4 {
   padding-bottom: 1rem;
 }
 
+<<<<<<< HEAD
 .pb-10 {
   padding-bottom: 2.5rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .text-center {
   text-align: center;
 }
@@ -1179,6 +1341,7 @@ video {
   line-height: 1.75rem;
 }
 
+<<<<<<< HEAD
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1199,14 +1362,19 @@ video {
   line-height: 1;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .font-bold {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 .font-medium {
   font-weight: 500;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .font-normal {
   font-weight: 400;
 }
@@ -1215,6 +1383,7 @@ video {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
 .capitalize {
   text-transform: capitalize;
 }
@@ -1224,6 +1393,8 @@ video {
   color: rgb(8 13 26 / var(--tw-text-opacity));
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .text-btnText {
   --tw-text-opacity: 1;
   color: rgb(7 9 18 / var(--tw-text-opacity));
@@ -1234,25 +1405,32 @@ video {
   color: rgb(1 121 237 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .text-textCol {
   --tw-text-opacity: 1;
   color: rgb(103 200 255 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .text-transparent {
   color: transparent;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .text-cyan-400 {
   --tw-text-opacity: 1;
   color: rgb(34 211 238 / var(--tw-text-opacity));
@@ -1261,6 +1439,15 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+=======
+.text-transparent {
+  color: transparent;
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+>>>>>>> Aces-webpage/temp1
 }
 
 .shadow-lg {
@@ -1269,16 +1456,20 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+<<<<<<< HEAD
 .drop-shadow-md {
   --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1290,6 +1481,8 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 @media (min-width: 480px) {
   .sm\:h-32 {
     height: 8rem;
@@ -1303,6 +1496,7 @@ video {
     width: 8rem;
   }
 
+<<<<<<< HEAD
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -1313,6 +1507,8 @@ video {
     margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+=======
+>>>>>>> Aces-webpage/temp1
   .sm\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1335,6 +1531,7 @@ video {
 }
 
 @media (min-width: 768px) {
+<<<<<<< HEAD
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1345,24 +1542,39 @@ video {
 
   .md\:h-48 {
     height: 12rem;
+=======
+  .md\:mx-24 {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .md\:h-64 {
+    height: 16rem;
+>>>>>>> Aces-webpage/temp1
   }
 
   .md\:w-1\/4 {
     width: 25%;
   }
 
+<<<<<<< HEAD
   .md\:w-48 {
     width: 12rem;
   }
 
   .md\:w-96 {
     width: 24rem;
+=======
+  .md\:w-64 {
+    width: 16rem;
+>>>>>>> Aces-webpage/temp1
   }
 
   .md\:flex-row {
     flex-direction: row;
   }
 
+<<<<<<< HEAD
   .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -1372,6 +1584,12 @@ video {
   .md\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+=======
+  .md\:space-y-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+>>>>>>> Aces-webpage/temp1
   }
 
   .md\:px-4 {
@@ -1386,9 +1604,15 @@ video {
 }
 
 @media (min-width: 976px) {
+<<<<<<< HEAD
   .lg\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+=======
+  .lg\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
+>>>>>>> Aces-webpage/temp1
   }
 
   .lg\:block {
@@ -1421,12 +1645,15 @@ video {
     margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+<<<<<<< HEAD
   .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+=======
+>>>>>>> Aces-webpage/temp1
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
