@@ -5,70 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://cdn.tailwindcss.com"></script>
     <title>ACES CUSAT</title>
 </head>    
 
 <body class="bg-[url('/images/background.png')] bg-black bg-cover bg-repeat-y">
     <!-- navbar -->
-    <span class="text-3xl cursor-pointer mx-2 md:hidden block">
-        <img src="images/hamburger.png" class="block lg:hidden" onclick="Menu(this)">
-    </span>
-    
-
-    <ul class="md:flex md:items-center bg-[#060a12] 
-    font-semibold md:justify-between z-[1] md:z-auto md:static 
-    absolute text-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 
-    md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-        <img src="images/logo.png" class="hidden md:block h-20 w-64 mt-0">
-
-        <li class="mx-2 my-6 md:my-0">
-        <a href="./index.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">HOME</a>
-      </li>
-      <li class="mx-2 my-6 md:my-0">
-        <a href="./events.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">EVENTS</a>
-      </li>
-      <li class="mx-2 my-6 md:my-0">
-        <a href="#" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">RESOURCES</a>
-      </li>
-      <li class="mx-2 my-6 md:my-0">
-        <a href="./coreteam.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">CORE TEAM</a>
-      </li>
-      <li class="mx-2 my-6 md:my-0">
-        <a href="./achieve.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">ACHIEVEMENTS</a>
-      </li>
-      <li class="mx-2 my-6 md:my-0">
-        <a href="./gallery.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">GALLERY</a>
-      </li>
-      <li class="mx-2 my-6 md:my-0">
-        <a href="#" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">CONTACT US</a>
-      </li>
-      <li><input class="border-solid p-2 border-2 mb-2 border-white rounded-full text-md w-18" placeholder="🔍 Search" style="background-color: #0a0e21" /></li>
-
-  
-<h2 class=""></h2>
-    </ul>
-  </nav>
+    <nav class="flex-row items-center bg-transparent max-w-10xl p-4 sm:px-6 lg:px-8">
+       <div class="flex justify-between font-semibold "> 
+        <img src="images/hamburger.png" class="block lg:hidden">
+        <img src="images/logo.png" class="hidden lg:block h-20 w-64 mt-0"> 
+            <ul class="hidden lg:flex space-x-6 lg:space-x-12 justify-end p-4 w-1/2">
+                <li><a href="./index.html" class="text-white text-lg hover:text-gray-300 ">Home</a></li>
+                <li><a href="./events.html" class="text-white text-lg hover:text-gray-300 ">Events</a></li>
+                <li><a href="#" class="text-white text-lg hover:text-gray-300 ">Resources</a></li>
+                <li><a href="#" class="text-white text-lg hover:text-gray-300">Core Team</a></li>
+                <li><a href="#" class="text-white text-lg hover:text-gray-300">Contact</a></li>
+                <li><input class="border-solid p-2 border-2 mb-2 border-white rounded-full text-md w-18" placeholder="🔍 Search" style="background-color: #0a0e21" /></li>
+            </ul>
+        </div>
+        </nav>
         <!-- navbar ends -->
         
-        <div class="container mx-auto my-20 " id="latest" style="display: flex;
-        flex-direction: column;
-        align-items: center;border-radius: 20px;width: 80%;margin-bottom: 2vw;">
-        
-        </div>
         <!-- events1 begins here -->
-        
-        <div class="bg-opacity-100 text-white py-6">
+        <div class="bg-opacity-100 text-white py-6 border-t border-gray-300">
             <div class="container mx-auto">
                 <div class="flex flex-col md:flex-row justify-between">
                     <div class="mb-4 md:mb-0">
-                        <p class="text-md font-semibold text-6xl" style="text-align: center;font-size: 3rem !important;justify-content: center;">EVENTS</p>
+                        <p class="text-md font-semibold text-4xl border-b border-gray-300">EVENTS</p>
                     </div>
-                    <div class="flex" style="justify-content: center;display: none;">
+                    <div class="flex">
                     <div class="dropdown-container relative">
-                        <button 
+                        <button
                             type="button"
-                            class="bg-white text-black  rounded-3xl px-4 mx-5 py-2 font-semibold flex "
+                            class="bg-white text-black rounded-3xl px-4 mx-5 py-2 font-semibold flex "
                         >
                             <img src="./images/Vector.png" class="mr-2 h-6 w-6">2023<img src="./images/Vector (1).png" class=" ml-2 mt-2 h-3 w-4">
                         </button>
@@ -89,11 +58,7 @@
                     </div>
                     </div>
                 </div>
-                
-                </div>
-                <div  id="eventcards" class="w-full h-full flex flex-wrap my-10 px-16 "></div>
             </div>
-            
         </div>
 
 
@@ -180,41 +145,9 @@
 </div>
   
 <!-- footer ends here -->
-<script>
-    function Menu(e){
-      let list = document.querySelector('ul');
-      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
-    }
-</script>
+
 
   
 </body>
-
-<style>
-    @media screen and (max-width:500px) {
-        
-        .downbar {
-        width: 80% !important;
-    }
-    .txtt{
-        font-size: 0.9rem !important;
-    }
-
-    .reg {
-        scale: 0.6;
-        margin-right: -40px;
-    }
-    }
-
-    @media screen and (max-width:800px) {
-        .name {
-            display: none;
-        }
-    }
-
-
-
-
-</style>
-<script src="js/events.js"></script>
+<script src="js/index.js"></script>
 </html>

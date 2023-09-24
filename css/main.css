@@ -534,6 +534,133 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+<<<<<<< HEAD
+.container {
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 976px) {
+  .container {
+    max-width: 976px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+=======
+>>>>>>> Aces-webpage/temp1
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+<<<<<<< HEAD
+.right-0 {
+  right: 0px;
+}
+
+.left-\[20px\] {
+  left: 20px;
+}
+
+.left-\[263px\] {
+  left: 263px;
+}
+
+.left-\[50px\] {
+  left: 50px;
+}
+
+.left-\[720px\] {
+  left: 720px;
+}
+
+.top-\[112px\] {
+  top: 112px;
+}
+
+.top-\[152px\] {
+  top: 152px;
+}
+
+.top-\[192px\] {
+  top: 192px;
+}
+
+.top-\[22px\] {
+  top: 22px;
+}
+
+.top-\[232px\] {
+  top: 232px;
+}
+
+.top-\[72px\] {
+  top: 72px;
+}
+
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+=======
+>>>>>>> Aces-webpage/temp1
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<<<<<<< HEAD
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+=======
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 .container {
   width: 100%;
 }
@@ -642,6 +769,40 @@ video {
   margin-bottom: 1rem;
 }
 
+.mx-24 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.mx-48 {
+  margin-left: 12rem;
+  margin-right: 12rem;
+>>>>>>> Aces-webpage/temp1
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+<<<<<<< HEAD
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+=======
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+>>>>>>> Aces-webpage/temp1
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
@@ -684,6 +845,62 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+<<<<<<< HEAD
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-48 {
+  margin-bottom: 12rem;
+}
+
+=======
+>>>>>>> Aces-webpage/temp1
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+<<<<<<< HEAD
+.mt-\[-20px\] {
+  margin-top: -20px;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+=======
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-48 {
+  margin-bottom: 12rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+>>>>>>> Aces-webpage/temp1
 }
 
 .mb-4 {
@@ -734,6 +951,7 @@ video {
   height: 5rem;
 }
 
+<<<<<<< HEAD
 .h-24 {
   height: 6rem;
 }
@@ -746,6 +964,8 @@ video {
   height: 16rem;
 }
 
+.h-8 {
+  height: 2rem;
 .h-8 {
   height: 2rem;
 }
@@ -937,6 +1157,25 @@ video {
   border-width: 1px;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+<<<<<<< HEAD
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+=======
+>>>>>>> Aces-webpage/temp1
 .border-2 {
   border-width: 2px;
 }
@@ -1040,6 +1279,11 @@ video {
   background-size: cover;
 }
 
+.bg-clip-text {
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
 .bg-repeat-y {
   background-repeat: repeat-y;
 }
@@ -1112,6 +1356,8 @@ video {
   padding-bottom: 2.5rem;
 }
 
+=======
+>>>>>>> Aces-webpage/temp1
 .text-center {
   text-align: center;
 }
@@ -1124,6 +1370,27 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+<<<<<<< HEAD
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-6xl {
@@ -1151,8 +1418,15 @@ video {
   line-height: 2.25rem;
 }
 
+<<<<<<< HEAD
 .font-medium {
   font-weight: 500;
+}
+
+=======
+>>>>>>> Aces-webpage/temp1
+.font-normal {
+  font-weight: 400;
 }
 
 .font-semibold {
@@ -1220,6 +1494,16 @@ video {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1241,6 +1525,17 @@ video {
 }
 
 @media (min-width: 976px) {
+<<<<<<< HEAD
+  .lg\:mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+=======
+  .lg\:mx-48 {
+    margin-left: 12rem;
+    margin-right: 12rem;
+>>>>>>> Aces-webpage/temp1
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1262,5 +1557,27 @@ video {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .lg\:pt-24 {
+    padding-top: 6rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
   }
 }

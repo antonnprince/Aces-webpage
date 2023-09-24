@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
+  content: ['./*.html', './js/*.js'],
   theme: {
     screens:{
       sm:'480px',
@@ -12,11 +12,14 @@ module.exports = {
 
     extend: {
       colors:{
-        text:'#67C8FF',
-        buttonCol:'#0085FF',
-        
+        textCol:'#67C8FF',
+        buttonCol:'#0179ED',
+        btnText:'#070912',
+      },
+      backgroundImage:{
+        'custom': "url('/images/bag.png')",
       }
-    }
+    },
   },
   plugins: [],
 }

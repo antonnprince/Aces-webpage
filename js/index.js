@@ -1,15 +1,15 @@
 const Details=[
     {
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-      "Title": "LOREM IPSUM",
+      "Title": "PLACEMENT STATISTICS",
     },
     {
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-        "Title": "LOREM IPSUM",
+        "Title": "MEET THE CORE TEAM",
     },
     {
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-        "Title": "LOREM IPSUM",
+        "Title": "EVENTS",
     },
     {
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
