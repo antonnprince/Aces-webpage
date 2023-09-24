@@ -1,28 +1,3 @@
-const Details=[
-    {
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-      "Title": "LOREM IPSUM",
-    },
-    {
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-        "Title": "LOREM IPSUM",
-    },
-    {
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-        "Title": "LOREM IPSUM",
-    },
-    {
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-        "Title": "LOREM IPSUM",
-    },
-    {
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-        "Title": "LOREM IPSUM",
-    },
-  
-
-  ]
-
 
   let PROJECT_ID = "2zh64mid";
   let DATASET = "production";
