@@ -22,6 +22,11 @@ fetch(URL)
 
 
 
+
+
+
+
+
 const zoomableImages = document.querySelectorAll('.zoomable');
 
 zoomableImages.forEach(image => {
