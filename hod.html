@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <title>ACES CUSAT</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>    
 
-<body class="bg-[url('/images/background.png')] bg-black bg-cover bg-repeat-y">
-    <!-- navbar -->
-     <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+<body class="bg-[url('/images/background.png')] bg-btnText bg-contain bg-blend-normal bg-repeat-y">
+ 
+
+    <span class="text-3xl cursor-pointer mx-2 md:hidden block">
         <img src="images/hamburger.png" class="block lg:hidden" onclick="Menu(this)">
     </span>
     
@@ -38,47 +41,15 @@
 <h2 class=""></h2>
     </ul>
   </nav>
-        <!-- navbar ends -->
-        
-        <!-- events1 begins here -->
-        <div class="bg-opacity-100 text-white py-6 border-t border-gray-300">
-            <div class="container mx-auto">
-                <div class="flex flex-col md:flex-row justify-between">
-                    <div class="mb-4 md:mb-0">
-                        <p class="text-md font-semibold text-4xl border-b border-gray-300">EVENTS</p>
-                    </div>
-                    <div class="flex">
-                    <div class="dropdown-container relative">
-                        <button
-                            type="button"
-                            class="bg-white text-black rounded-3xl px-4 mx-5 py-2 font-semibold flex "
-                        >
-                            <img src="./images/Vector.png" class="mr-2 h-6 w-6">2023<img src="./images/Vector (1).png" class=" ml-2 mt-2 h-3 w-4">
-                        </button>
-                        <div class="dropdown-menu absolute hidden mt-2 bg-white text-black rounded-lg shadow-lg">
-                            <!-- Dropdown menu content here -->
-                        </div>
-                    </div>
-                    <div class="dropdown-container relative">
-                        <button
-                            type="button"
-                            class="bg-white text-black rounded-3xl px-4 mx-5 py-2 font-semibold flex"
-                        >
-                        <img src="./images/Group.png" class="mr-2 h-6 w-6">Mode<img src="./images/Vector (1).png" class=" ml-2 mt-2 h-3 w-4">
-                        </button>
-                        <div class="dropdown-menu absolute hidden mt-2 bg-white text-black rounded-lg shadow-lg">
-                            <!-- Dropdown menu content here -->
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    
-<!-- footer begins here -->
-<div class="bg-[#071017] mt-8  text-white border-t border-gray-300">
+  <img src="images/sudheepjpg.jpg" class="flex my-8 mx-auto w-64 h-64">
+  <h1 class="text-[#0085FF] text-lg font-bold md:text-2xl flex flex-shrink">Biodata and Key Achievements:</h1>
+  <p class="text-white text-lg font-semibold md:text-2xl flex flex-shrink">
+     Was a first rank holder in both B.Tech and M.Tech. Worked as the Head division of computer engineering 3 times and was member board of studies, CUSAT. Published a reference book by an international publisher Cengage learning, titled “Data mining and warehousing”. Published several international publications and working as a Ph.D guide in CUSAT, Kochi, India. He has produced 8 doctorates till date and published two patents waiting for granting.. Co-ordinated an international conference ICICT, held at Kochi, December 2014 as a Program Co-chair. Published over 20 international publications in reputed journals and conference papers. Worked as a reviewer of prestigious journals like 
+    Inderscience Business intelligence and data mining(IJBIDM), Inderscience Computational systems and Engineering 
+    (IJCSYSE), Springer nature Journal of AI, Taylor and francis journals,
+      world scientific journal IJIG(International Journal of Image and Graphics).
+  </p>
+  <div class="bg-[#071017]  text-white border-t border-gray-300">
    
     <hr class="border-t border-[#438EFF] w-full">
     <div class="w-full flex flex-col gap-y-16 md:flex-row p-10">
@@ -150,7 +121,6 @@
       e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
     }
   </script>
-  
 </body>
 <script src="js/index.js"></script>
 </html>

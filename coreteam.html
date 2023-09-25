@@ -10,20 +10,34 @@
 
 <body class="bg-[url('/images/background.png')] bg-black bg-cover bg-repeat-y">
     <!-- navbar -->
-    <nav class="flex-row items-center bg-transparent max-w-10xl p-4 sm:px-6 lg:px-8">
-       <div class="flex justify-between font-semibold "> 
-        <img src="images/hamburger.png" class="block lg:hidden">
-        <img src="images/logo.png" class="hidden lg:block h-20 w-64 mt-0"> 
-            <ul class="hidden lg:flex space-x-6 lg:space-x-12 justify-end p-4 w-1/2">
-                <li><a href="#" class="text-white text-lg hover:text-gray-300 ">Home</a></li>
-                <li><a href="#" class="text-white text-lg hover:text-gray-300 ">Events</a></li>
-                <li><a href="#" class="text-white text-lg hover:text-gray-300 ">Resources</a></li>
-                <li><a href="#" class="text-white text-lg hover:text-gray-300">Core Team</a></li>
-                <li><a href="#" class="text-white text-lg hover:text-gray-300">Contact</a></li>
-                <li><input class="border-solid p-2 border-2 mb-2 border-white rounded-full text-md w-18" placeholder="🔍 Search" style="background-color: #0a0e21" /></li>
-            </ul>
-        </div>
-        </nav>
+    <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+        <img src="images/hamburger.png" class="block lg:hidden" onclick="Menu(this)">
+    </span>
+    
+
+    <ul class="md:flex md:items-center bg-[#060a12] 
+    font-semibold md:justify-between z-[1] md:z-auto md:static 
+    absolute text-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 
+    md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <img src="images/logo.png" class="hidden md:block h-20 w-64 mt-0">
+
+        <li class="mx-2 my-6 md:my-0">
+        <a href="./index.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">HOME</a>
+      </li>
+      <li class="mx-2 my-6 md:my-0">
+        <a href="./events.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">EVENTS</a>
+      </li>
+      
+      <li class="mx-2 my-6 md:my-0">
+        <a href="./coreteam.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">CORE TEAM</a>
+      </li>
+      <li class="mx-2 my-6 md:my-0">
+        <a href="#" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">CONTACT US</a>
+      </li>
+  
+<h2 class=""></h2>
+    </ul>
+  </nav>
         <!-- navbar ends -->
         <!-- page title -->
         <div class="bg-[url('/images/title.png')] pb-10 w-auto flex-shrink-0 flex flex-1 flex-row text-white justify-center text-title text-6xl drop-shadow-md font-semibold ">
@@ -32,61 +46,727 @@
         <!-- page title ends-->
         <!--cards-->
         <!-- row 1 -->
-        <div class="flex">
-            <div class="w-[700px] h-80 left-[50px] absolute bg-sky-500 bg-opacity-10 border border-sky-500 flex">
-                <img class="w-52 h-64 left-[20px] top-[22px] absolute" src="images/profile.png" />
-                <div class="relative p-5">
-                    <div class="w-[407px] left-[263px] top-[22px] absolute text-white text-4xl font-semibold capitalize">CHRIS HEMSWORTH</div>
-                    <div class="w-[209px] left-[263px] top-[72px] absolute flex">
-                        <div class="text-cyan-400 text-2xl font-semibold capitalize">Position</div>
-                        <div class="text-white text-2xl font-semibold capitalize"> : President</div>
+        <div class="flex flex-col flex-wrap justify-between sm:flex-row space-y-12 sm:mx-2">
+            
+            <div class="flex border-sky-500 w-auto border-2 md:pr-20">
+                <div class="flex justify-between items-center">
+                    <img src="./images/sudheepjpg.jpg" class="w-40 h-40 sm:w-64 sm:h-64 pl-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-2xl font-bold">SUDHEEP ELAYIDOM</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Coordinator</div>
+                        </div>
+                    
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Data Mining</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-md sm:text-2xl font-semibold">sudheep@cusat.ac.in.com</div>
+                        </div>
+                    
                     </div>
-                    <div class="w-[109px] left-[263px] top-[112px] absolute flex">
-                        <div class="text-cyan-400 text-2xl font-semibold capitalize">Year</div>
-                        <div class="text-white text-2xl font-semibold capitalize"> : 4 th </div>
-                    </div>
-                    <div class=" w-[509px] left-[263px] top-[152px] absolute flex">
-                        <div class="text-cyan-400 text-2xl font-semibold capitalize">Skills and Interests</div>
-                        <div class="text-white text-2xl font-semibold capitalize"> : Web development</div>
-                    </div>
-                    <div class="w-[609px] left-[263px] top-[192px] absolute flex">
-                        <div class="text-cyan-400 text-2xl font-semibold">Email</div>
-                        <div class="text-white text-2xl font-semibold"> : chrishemsworth@gmail.com </div>
-                    </div>
-                    <div class="w-[309px] left-[263px] top-[232px] absolute flex">
-                        <div class="text-cyan-400 text-2xl font-semibold">Phone</div>
-                        <div class="text-white text-2xl font-semibold"> : +91-1000000000 </div>
-                    </div>
-              </div>
-              <div class="w-[700px] h-80 left-[720px] absolute bg-sky-500 bg-opacity-10 border border-sky-500 flex">
-                <img class="w-52 h-64 left-[20px] top-[22px] absolute" src="images/profile.png" />
-                <div class="relative p-5">
-                    <div class="w-[407px] left-[263px] top-[22px] absolute text-white text-4xl font-semibold capitalize">CHRIS HEMSWORTH</div>
-                    <div class="w-[209px] left-[263px] top-[72px] absolute flex">
-                        <div class="text-cyan-400 text-2xl font-semibold capitalize">Position</div>
-                        <div class="text-white text-2xl font-semibold capitalize"> : President</div>
-                    </div>
-                    <div class="w-[109px] left-[263px] top-[112px] absolute flex">
-                        <div class="text-cyan-400 text-2xl font-semibold capitalize">Year</div>
-                        <div class="text-white text-2xl font-semibold capitalize"> : 4 th </div>
-                    </div>
-                    <div class=" w-[509px] left-[263px] top-[152px] absolute flex">
-                        <div class="text-cyan-400 text-2xl font-semibold capitalize">Skills and Interests</div>
-                        <div class="text-white text-2xl font-semibold capitalize"> : Web development</div>
-                    </div>
-                    <div class="w-[609px] left-[263px] top-[192px] absolute flex">
-                        <div class="text-cyan-400 text-2xl font-semibold">Email</div>
-                        <div class="text-white text-2xl font-semibold"> : chrishemsworth@gmail.com </div>
-                    </div>
-                    <div class="w-[309px] left-[263px] top-[232px] absolute flex">
-                        <div class="text-cyan-400 text-2xl font-semibold">Phone</div>
-                        <div class="text-white text-2xl font-semibold"> : +91-1000000000 </div>
-                    </div>
-              </div>
+                    
+                </div>
             </div>
+
+             
+            <div class="flex justify-start border-sky-500 w-auto border-2 pr-20">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/ajnas.jpeg" class="w-32 h-40 sm:w-40 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-2xl font-bold">AJNAS N B</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">President</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">4th</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Web Development,ML</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">ajnasnb@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 w-auto border-2 pr-8">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/hsaz.jpeg" class="w-32 h-40 sm:w-64 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-2xl font-bold">SHAZ HUSSAN</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Student Advisor</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">4th</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Web Dev,Web3 Dev</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">shashussan@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+           
+            <div class="flex justify-start border-sky-500 border-2 w-auto pr-24">
+
+                <div class="flex justify-between items-center mr-8">
+                    <img src="./images/sindhu.jpeg" class="w-32 h-40 sm:w-48 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+
+                            <div class="flex flex-row text-left">
+                                <h2  class="text-white text-lg sm:text-3xl shadow-2xl font-bold">SINDHU P R</h2>
+                            </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Vice President</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">AI/ML</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">sindhupr2003@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="flex justify-start border-sky-500 w-auto border-2 pr-28">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/prajwal.jpeg" class="w-32 h-40 sm:w-48 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+
+                            <div class="flex flex-row text-left">
+                                <h2  class="text-white text-lg sm:text-3xl shadow-2xl font-bold">PRAJWAL M</h2>
+                            </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Vice President</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Web dev,Stocks</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold">prajwalvm@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 w-auto border-2 pr-4">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/alosh.jpeg" class="w-32 h-40 sm:w-40 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-2xl font-bold">ALOSH DENNY</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Secretary</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">ML Vision,Planetory Geology</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">aloshdenny@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 border-2 w-auto pr-12">
+
+                <div class="flex justify-between items-center ">
+                    <img src="./images/mishal.jpeg" class="w-32 h-40 sm:w-40 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-semibold">MISHAL KOLLIYATH FAISAL</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Joint Secretary</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="flex flex-wrap text-white text-lg sm:text-2xl font-semibold capitalize">AI & DS, DevOps, Django</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">mishal0404@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="flex justify-start border-sky-500 border-2 w-auto pr-40">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/farhan.jpeg" class="w-32 h-40 sm:w-40 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-2xl font-bold">MUHAMMED FARHAN</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Joint Secretary</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold">Web dev, Django</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold">farhanmonksa@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="flex justify-start border-sky-500 w-auto pr-20 border-2">
+
+                <div class="flex justify-between items-center w-1/2 max-w-3/4">
+                    <img src="./images/utkarsh.jpeg" class="w-32 h-40 sm:w-48 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-2xl font-bold">UTKARSH RANJAN</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Treasurer</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Web Development</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">utkarshr@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 border-2 w-auto pr-24">
+
+                <div class="flex justify-between items-center pr-8">
+                    <img src="./images/anton.jpeg" class="p-2 w-32 h-40 sm:w-48 sm:h-48">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-bold">ANTON PRINCE OOMMEN</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Tech Lead</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">Web & App Dev</div>
+                        </div>
+
+                        <div class="flex flex-row flex-wrap text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold">antonprince95@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+           
+            <div class="flex justify-start border-sky-500 w-auto border-2 pr-2">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/nasim.jpeg" class="w-32 h-40 sm:w-48 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-bold">MOHAMMED NASIM</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Media Lead</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Web Dev, Node</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">mohammednasim2004@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 w-auto border-2 pr-12">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/ishika.jpeg" class="w-32 h-40 sm:w-48 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-bold">ISHIKA ISHANI
+                            </h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Content Lead</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">2nd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Web Dev, Data Science</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">ishikaishani97@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 border-2 w-auto pr-40">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/deva.jpeg" class="w-32 h-40 sm:w-48 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-bold">DEVA NANDAN S</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">media lead</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">2nd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="flex flex-wrap text-white text-lg sm:text-2xl font-semibold capitalize">Photoshop</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">ds456@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 border-2 w-auto pr-12">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/anandu.jpeg" class="w-32 h-40 sm:w-40 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-bold">ANANDU BABU</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Event Lead</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Game Development,AI/ML</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold">anandubabu4002@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 w-auto border-2 pr-28">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/adithya.jpeg" class="w-32 h-40 sm:w-32 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-bold">ADITHYA KRISHNA</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Event Lead</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">UI/UX Designing</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">adithyakrishna2508@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 w-auto border-2 pr-20">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/angelo.jpeg" class="w-32 h-40 sm:w-48 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-bold">ANGELO ANTU</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Project Wing Lead</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">Robotics,AI/ML Dev</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">angeloantu@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 border-2 w-auto pr-20">
+
+                <div class="flex justify-between items-center ">
+                    <img src="./images/harshed.jpeg" class="w-32 h-40 sm:w-48 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-bold">HARSHED ABDULLA</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Project Wing Lead</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Web & AI/ML Dev</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold ">harshed2004@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 w-auto border-2">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/heyron.jpeg" class="w-32 h-40 sm:w-48 sm:h-64 p-2">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-bold">HEYRON J MILTON</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Project Wing Lead</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">AI/ML, Cybersecurity, DevOps</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-md sm:text-2xl font-semibold ">heyronjmilton007@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="flex justify-start border-sky-500 w-auto border-2">
+
+                <div class="flex justify-between items-center">
+                    <img src="./images/sameer.jpeg" class="w-32 h-40 sm:w-64 sm:h-64 pt-2 pb-2 pr-0">
+
+                    <div class="flex flex-col space-y-2 sm:space-y-4 mx-4">
+                        <div class="flex flex-row text-left">
+                            <h2  class="text-white text-lg sm:text-2xl shadow-3xl font-bold">SAMEER ABDULLA</h2>
+                        </div>
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Position:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">Project Wing Lead</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Year:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">3rd</div>
+                        </div>
+                    
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Skills & Interests:</div>
+                            <div class="text-white text-lg sm:text-2xl font-semibold capitalize">AI/ML,DevOps</div>
+                        </div>
+
+                        <div class="flex flex-row text-left">
+                            <div class="text-cyan-400 text-lg sm:text-2xl font-semibold capitalize">Email:</div>
+                            <div class="text-white text-md sm:text-2xl font-semibold ">sameerabdulla175@gmail.com</div>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+
+            </div>
+            
+
+        
+        </div>
         </div>
         <!-- row 1 ends-->
+        <div class="bg-[#071017] mt-8  text-white border-t border-gray-300">
+   
+            <hr class="border-t border-[#438EFF] w-full">
+            <div class="w-full flex flex-col gap-y-16 md:flex-row p-10">
         
+                <div class="flex flex-1">
+                    <div class="flex flex-col mx-auto text-center gap-y-1">
+                        <p class="text-lg font-medium text-text">CONTACT US</p>
+                        <div class="flex flex-row py-2">
+                            <img src="images/phone.png" alt="phone-number" class=" h-6 px-2">
+                            <p class="text-sm text-gray-300">+91 974193148</p>
+                        </div>
+                        <div class="flex flex-row py-2">
+                            <img src="images/mail.png" alt="mail" class=" h-6 px-2">
+                            <p class="text-sm text-gray-300">acescusat1@gmail.com</p>
+                        </div>
+                        <div class="flex flex-row py-2">
+                            <img src="images/location.png" alt="location" class=" h-6 px-2">
+                            <p class="text-sm text-gray-300">+91 1234567890</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-1">
+                    <div class="flex flex-col mx-auto text-center gap-y-4 ">
+                        <p class="text-lg font-medium text-text">CONNECT US</p>
+                        <div class="flex flex-wrap mx-auto gap-x-10">
+                            <!-- add link to image -->
+                            <a href="https://www.facebook.com/aces.cusat.ac.in/">
+                            <img src="images/Group 12.png" alt="facebook" class=" h-8">
+                            </a>
+                            <a href="https://instagram.com/aces_cusat?igshid=MzRlODBiNWFlZA==">
+                            <img src="images/Group 11.png" alt="instagram" class=" h-8">
+                            </a>
+                        </div>
+                        <div class="flex flex-wrap mx-auto gap-x-10">
+                            <a href="https://www.linkedin.com/company/aces-cusat/">
+                            <img src="images/Group 13.png" alt="LINKEDIN" class=" h-8">
+                        </a>
+                            <img src="images/Group 10.png" alt="share" class=" h-8">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-1">
+                    <ul class="flex flex-col mx-auto gap-y-1 text-center">
+                        <p class="text-lg font-medium text-text ">INFORMATION</p>
+                        <li><a href="#" class="text-white hover:text-gray-300">ABOUT</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-300">CREDIT</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-300">SERVICES</a></li>
+                        <li><a href="#" class="text-white hover:text-gray-300">TEAM</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-1">
+                    <div class="flex flex-col mx-auto text-center">
+                        <img src="images/aces.png" alt="logo" class=" h-24">
+                        <img src="images/aces2.png" alt="logo" class=" h-10 mt-[-20px]">
+        
+                        <p class="text-sm text-gray-300">copyright&copy;acescusat. All Rights Reserved</p>
+        
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        <script>
+            function Menu(e){
+              let list = document.querySelector('ul');
+              e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+            }
+          </script>  
            
             
 </body>
