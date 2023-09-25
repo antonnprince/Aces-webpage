@@ -51,7 +51,7 @@ for (var prop in Details) {
     cardContent.innerHTML += cardHtml;
 }
 
-    visitorCard.innerHTML = `
+    /*visitorCard.innerHTML = `
 <div class="mx-auto w-full flex items-center justify-center py-4 px-10 md:px-20 ">
     <div class="w-full rounded-2xl bg-gradient-to-r from-[#0085FF] to-[#00F0FF] p-[0.2rem] ">
         <div class="h-full w-full rounded-2xl bg-gray-800 ">
@@ -74,5 +74,5 @@ for (var prop in Details) {
         </div>
     </div>
 </div>
-    `;
+    `;*/
 
