@@ -5,33 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://cdn.tailwindcss.com"></script>
     <title>ACES CUSAT</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/placement.js"></script>
 </head>    
 
-<body class="bg-[url('/images/background.png')] bg-btnText bg-cover bg-repeat-y">
-    <!-- navbar -->
-    <nav class="flex-row items-center bg-transparent max-w-10xl p-4 sm:px-6 lg:px-8">
-       <div class="flex justify-between font-semibold "> 
-        <img src="images/hamburger.png" class="block lg:hidden">
-        <img src="images/logo.png" class="hidden lg:block h-20 w-64 mt-0"> 
-            <ul class="hidden lg:flex space-x-6 lg:space-x-12 justify-end p-4 w-1/2">
-                <li><a href="./index.html" class="text-white text-lg hover:text-gray-300 ">Home</a></li>
-                <li><a href="./events.html" class="text-white text-lg hover:text-gray-300 ">Events</a></li>
-                <li><a href="#" class="text-white text-lg hover:text-gray-300 ">Resources</a></li>
-                <li><a href="#" class="text-white text-lg hover:text-gray-300">Core Team</a></li>
-                <li><a href="./achieve.html" class="text-white text-lg hover:text-gray-300">Acheivements</a></li>
-                <li><a href="./gallery.html" class="text-white text-lg hover:text-gray-300">Gallery</a></li>
-                <li><a href="#" class="text-white text-lg hover:text-gray-300">Contact</a></li>
-                <li><input class="border-solid p-2 border-2 mb-2 border-white rounded-full text-md w-18" placeholder="🔍 Search" style="background-color: #0a0e21" /></li>
-            </ul>
-        </div>
-    </nav>
-        <!-- navbar ends -->
+<body class="bg-[url('/images/background.png')] bg-btnText bg-contain bg-blend-normal bg-repeat-y">
+ 
+
+    <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+        <img src="images/hamburger.png" class="block lg:hidden" onclick="Menu(this)">
+    </span>
+    
+
+    <ul class="md:flex md:items-center bg-[#060a12] 
+    font-semibold md:justify-between z-[1] md:z-auto md:static 
+    absolute text-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 
+    md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <img src="images/logo.png" class="hidden md:block h-20 w-64 mt-0">
+
+        <li class="mx-2 my-6 md:my-0">
+        <a href="./index.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">HOME</a>
+      </li>
+      <li class="mx-2 my-6 md:my-0">
+        <a href="./events.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">EVENTS</a>
+      </li>
+      
+      <li class="mx-2 my-6 md:my-0">
+        <a href="./coreteam.html" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">CORE TEAM</a>
+      </li>
+      <li class="mx-2 my-6 md:my-0">
+        <a href="#" class="sm:text-md md:text-lg lg:text-xl hover:text-[#0085FF] duration-500">CONTACT US</a>
+      </li>
+  
+<h2 class=""></h2>
+    </ul>
+  </nav>
+
+
         
-     <!-- visitors -->
-     <div id="visitors">
-    </div>
+        <!--hero-->
+        <div class="flex flex-row text-white mt-10 lg:pt-24 lg:pr-12 mb-48">
+            <div class="sm:w-20 md:w-1/4 lg:w-1/2"></div>
+            <div class="max-w-full lg:w-1/2">
+                <h1 class="font-normal text-4xl shadow-lg lg:text-3xl text-center lg:text-left">WELCOME TO OFFICIAL WEBSITE OF</h1>
+                <h1 class="font-bold text-7xl shadow-lg lg:text-9xl text-center lg:text-left pb-4 relative">
+                    ACES CUSAT
+                    <span class="absolute bottom-0 left-0 w-full border-b-2 border-white"></span>
+                </h1>
+                
+                <p class="font-semibold shadow-lg text-textCol text-lg text-center sm:text-xl mb-12">
+                    ACES strives to establish a welcoming community for Cusat students where they can unleash their coding skills, connect with peers, and transform their ideas into reality. Our mission is to offer a holistic experience that encompasses academic, professional, and extracurricular initiatives.
+                </p>
+
+            <div class="flex flex-row justify-center">
+                <button class="px-2 sm:px-4 p-2 md:px-4 lg:px-8 font-semibold text-btnText sm:text-lg md:text-3xl lg:text-3xl text-center 
+                bg-gradient-to-b from-[#0085FF] via-[#0059FF] to-[#0057FF] rounded-xl drop-shadow-2xl mr-12">
+                    <a href="https://drive.google.com/drive/folders/1XZGpIUshchqAXZB4FMh9WDrN0qe5rSed">RESOURCES</a>  
+                </button>
+
+                <button class="px-2 sm:px-4 p-2 md:px-4 lg:px-8 font-semibold text-buttonCol sm:text-lg md:text-3xl lg:text-3xl text-center border-2  border-buttonCol bg-transparent rounded-xl">
+                    <a href="./gallery.html">GALLERY</a>
+                </button>
+            </div>
+
+            </div>
+        </div>
+        <!--hero ends-->
+
+        <!--objectives section-->
+        <div>
+            <div class="bg-gradient-to-b from-[#0085FF] to-[#00E8FF] text-transparent bg-clip-text">
+                <h1 class="text-center text-5xl font-semibold">OUR OBJECTIVES</h1>
+            </div>
+            
+            <div class="flex flex-col px-8 md:px-12 border-2 border-cyan-500 items-center justify-center md:flex-row md:space-y-4 space-y-8 p-2 md:space-x-8 md:mx-18 lg:mx-24 my-12">
+                <img src="images/Group 14.png" class="sm:w-64 sm:h-64 md:w-48 md:h-48 lg:w-1/4 lg:h-1/4 shadow-lg">
+                <img src="images/Group 15.png" class="sm:w-64 sm:h-64 md:w-48 md:h-48 lg:w-1/4 lg:h-1/4 shadow-lg">
+                <img src="images/Group 16.png"class="sm:w-64 sm:h-64 md:w-48 md:h-48 lg:w-1/4 lg:h-1/4 shadow-lg">
+                <img src="images/Group 17.png"class="sm:w-64 sm:h-64 md:w-48 md:h-48 lg:w-1/4 lg:h-1/4 shadow-lg">
+            </div>
+       
+        </div>
+          <!--objectives section ends here-->
+
+        <!-- visitors 
+     <div id="visitors" class="font-bold">
+    </div>-->
     <!-- visitors ends here -->
     <!-- cards -->
     <div  id="cards" class="w-full h-full flex flex-wrap my-10 px-16 ">
@@ -40,31 +102,9 @@
 
     
 <!-- footer begins here -->
-<div class="bg-[#071017]  text-white py-6 border-t border-gray-300">
-    <div class="container mx-auto ">
-      <div class="flex flex-col md:flex-row justify-between items-center">
-        <div class="mb-4 md:mb-0">
-          <p class="text-md font-semibold">GET NOTIFIED ABOUT OUR LATEST UPDATES</p>
-        </div>
-        <div>
-            <div class="relative flex items-center">
-                <input
-                    type="text"
-                    placeholder="Enter your email address"
-                    class="border rounded-2xl border-2 px-4 py-3 w-full md:w-96 focus:outline-none focus:ring border-[#0085FF]"
-                />
-                <button
-                    type="submit"
-                    class="bg-gradient-to-r from-[#0085FF] to-[#00F0FF] text-white rounded-2xl px-4 mx-1 py-2 absolute right-0  md:ml-1"
-                >
-                    Submit
-                </button>
-            </div>
-        </div>
-        
-      </div>
-    </div>
-    <hr class="border-t border-[#438EFF] w-full my-4">
+<div class="bg-[#071017]  text-white border-t border-gray-300">
+   
+    <hr class="border-t border-[#438EFF] w-full">
     <div class="w-full flex flex-col gap-y-16 md:flex-row p-10">
 
         <div class="flex flex-1">
@@ -72,11 +112,11 @@
                 <p class="text-lg font-medium text-text">CONTACT US</p>
                 <div class="flex flex-row py-2">
                     <img src="images/phone.png" alt="phone-number" class=" h-6 px-2">
-                    <p class="text-sm text-gray-300">+91 1234567890</p>
+                    <p class="text-sm text-gray-300">+91 974193148</p>
                 </div>
                 <div class="flex flex-row py-2">
                     <img src="images/mail.png" alt="mail" class=" h-6 px-2">
-                    <p class="text-sm text-gray-300">aces@dfjds.com</p>
+                    <p class="text-sm text-gray-300">acescusat1@gmail.com</p>
                 </div>
                 <div class="flex flex-row py-2">
                     <img src="images/location.png" alt="location" class=" h-6 px-2">
@@ -89,11 +129,17 @@
                 <p class="text-lg font-medium text-text">CONNECT US</p>
                 <div class="flex flex-wrap mx-auto gap-x-10">
                     <!-- add link to image -->
+                    <a href="https://www.facebook.com/aces.cusat.ac.in/">
                     <img src="images/Group 12.png" alt="facebook" class=" h-8">
+                    </a>
+                    <a href="https://instagram.com/aces_cusat?igshid=MzRlODBiNWFlZA==">
                     <img src="images/Group 11.png" alt="instagram" class=" h-8">
+                    </a>
                 </div>
                 <div class="flex flex-wrap mx-auto gap-x-10">
+                    <a href="https://www.linkedin.com/company/aces-cusat/">
                     <img src="images/Group 13.png" alt="LINKEDIN" class=" h-8">
+                </a>
                     <img src="images/Group 10.png" alt="share" class=" h-8">
                 </div>
             </div>
@@ -122,8 +168,13 @@
   
 <!-- footer ends here -->
 
-
-  
+<script>
+    function Menu(e){
+      let list = document.querySelector('ul');
+      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+    }
+  </script>
 </body>
 <script src="js/index.js"></script>
 </html>
+
