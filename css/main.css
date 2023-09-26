@@ -846,6 +846,14 @@ video {
   height: 24rem;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
