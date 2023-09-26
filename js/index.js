@@ -6,7 +6,7 @@ const Details=[
     },
     {
         "description": "Discover the remarkable achievements of our Computer Science students, highlighting their outstanding talent and accomplishments in the field",
-        "Title": "ACHIEVMENTS",
+        "Title": "ACHIEVEMENTS",
         "Link":"./achieve.html",
     },
     {
@@ -35,15 +35,15 @@ var visitorCard = document.getElementById('visitors');
 
 for (var prop in Details) {
     var cardHtml = `
-    <div class="mx-auto w-80 my-8 flex max-w-screen-sm items-center justify-center">
-        <div class="h-80 w-full rounded-2xl bg-gradient-to-r from-[#0085FF] to-[#00F0FF] p-[0.2rem]">
+    <div class="mx-auto h-full w-80 my-4 sm:my-8 flex max-w-screen-sm items-center justify-center">
+        <div class="h-80 w-full rounded-2xl bg-gradient-to-r from-[#0085FF] to-[#00F0FF] p-[0.15rem]">
             <div class=" h-full w-full rounded-2xl bg-gray-800">
-                <h2 class="text-2xl p-4 py-6 text-white font-semibold hover:text-[#0085FF] duration-500 text-center w-full">
+                <h2 class="text-xl md:text-2xl p-6 pt-6 pb-3 md:pb-6 text-white font-semibold hover:text-[#0085FF] duration-500 text-center w-full">
                 <a href="${Details[prop].Link}">
                 ${Details[prop].Title}
                 </a>
                 </h2>
-                <p class="text-white px-4 py-6 text-center text-lg">${Details[prop].description}</p>
+                <p class="text-white px-4 py-6 text-center text-md md:text-lg">${Details[prop].description}</p>
             </div>
         </div>
     </div>
