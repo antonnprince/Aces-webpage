@@ -1385,7 +1385,7 @@ video {
 
 .text-textCol {
   --tw-text-opacity: 1;
-  color: rgb(103 200 255 / var(--tw-text-opacity));
+  color: rgb(63 148 196 / var(--tw-text-opacity));
 }
 
 .text-transparent {
@@ -1395,6 +1395,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#3f94c4\] {
+  --tw-text-opacity: 1;
+  color: rgb(63 148 196 / var(--tw-text-opacity));
 }
 
 .underline {
